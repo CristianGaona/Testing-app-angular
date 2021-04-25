@@ -31,4 +31,11 @@ describe('Pruebas de clase', ()=>{
 
         expect( resp ).toBe(50)
     })
+
+    it ('Debe retornar 0 hp, si recibe 100 de daño o mas', ()=>{
+
+        const resp = jugador.recibeDanio(100)
+
+        expect( resp ).toBe(0)
+    })
 })

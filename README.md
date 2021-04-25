@@ -36,3 +36,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * `toBeFalse()` = permite comprobar expresiones booleanas (FALSE) 
 * `.not.toBeTruthy()` = tiene la misma función que `toBeFalse()`
 * `toBeGreaterThanOrEqual(num)` = permite saber si dentro de un arreglo hay num o mas en ese arreglo, por ejemplo si en num = 3, entonces le digo que si tiene el arreglo mas de tres valores pase la prueba
+* `beforeAll()` = se ejecuta antes de todas las pruebas una sola vez
+* `beforeEach()` = se ejecuta antes de cada prueba definida, se ejecuta tantas veces se acuerdo al número de pruebas
+* `afterAll()` = se ejecuta al final de todas las puedas una sola vez
+* `afterEach()` = se ejecuta al final de cada prueba.
+
+### Comando para crear el coverage de las pruebas y visualizar los Statements, branchs, functions, lines
+`ng test --code-coverage`
