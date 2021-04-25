@@ -29,6 +29,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Algunas funciones básicas para pruebas con Jasmine y Karma
 * `describe()` = Definir un conjunto de pruebas
 * `it()` = Definir una prueba personalizada
-`expect` =  permite comaparar las respuestas esperadas con las respuestas definidas junto con otras funciones como `toBe`  `contains` entre otras
+`expect` =  permite comaparar las respuestas esperadas con las respuestas definidas junto con otras funciones como `toBe`, `contains` entre otras
 * `toBe()` = Permite comprobar el tipo de dato
 * `toContain()` = Permite comprobar si un valor forma parte de la respuesta
+* `toBeTruthy()` = permite comprobar expresiones booleanas (TRUE)
+* `toBeFalse()` = permite comprobar expresiones booleanas (FALSE) 
+* `.not.toBeTruthy()` = tiene la misma función que `toBeFalse()`
+* `toBeGreaterThanOrEqual(num)` = permite saber si dentro de un arreglo hay num o mas en ese arreglo, por ejemplo si en num = 3, entonces le digo que si tiene el arreglo mas de tres valores pase la prueba
