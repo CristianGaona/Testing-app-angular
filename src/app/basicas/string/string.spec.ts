@@ -1,13 +1,4 @@
-
-
-// Agrupar pruebas
-//describe('Pruebas de Strings');
-
 import { mensaje } from "./string"
-
-// Única prueba
-//it( 'Debe de regresar un String');
-
 
 describe( 'Pruebas de Strings', ()=>{
     it( 'Debe de regresar un string', ()=>{
